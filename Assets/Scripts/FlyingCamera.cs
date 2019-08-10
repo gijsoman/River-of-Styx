@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class ExtendedFlycam : MonoBehaviour
+public class FlyingCamera : MonoBehaviour
 {
     [SerializeField] public float cameraSensitivity = 90;
     [SerializeField] public float climbSpeed = 4;
