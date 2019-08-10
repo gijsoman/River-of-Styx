@@ -48,6 +48,6 @@ public class ExtendedFlycam : MonoBehaviour
             transform.position -= transform.up * climbSpeed * Time.deltaTime;
 
         if (Input.GetKeyDown(KeyCode.End))
-            Cursor.lockState = (Cursor.lockState != CursorLockMode.Locked) ? true : false;
+            Cursor.lockState = (Cursor.lockState != CursorLockMode.Locked) ? CursorLockMode.Locked : CursorLockMode.Confined;
     }
 }
