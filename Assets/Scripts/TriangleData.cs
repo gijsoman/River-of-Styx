@@ -18,7 +18,7 @@ public struct TriangleData
     //The normal to the triganle
     public Vector3 Normal;
 
-    //The area of the triangle
+    //The area of the triangle. The size of the surface?
     public float Area;
 
     public TriangleData(Vector3 _P1, Vector3 _P2, Vector3 _P3)
